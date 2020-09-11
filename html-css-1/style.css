@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+}
+
+.h2 {
+    color: white;
+    position: relative;
+    top: 35px;
+    left: 50px;
+    font-size: xx-large;
+    margin: 0;
+}
+
+.nav {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 35px;
+    position: relative;
+    top: 5px;
+}
+
+.black-box {
+    background-color: black;
+    height: 400px;
+}
+
+.yellow-words {
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 175px;
+}
+
+.box-container {
+    background: whitesmoke;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.box-container div {
+    width: 250px;
+    height: 250px;
+    background-color: lightgreen;
+    border-radius: 10%;
+}
+
+.orange-box-container {
+    background: whitesmoke;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.orange-box-container div {
+    width: 400px;
+    height: 200px;
+    background-color: orange;
+}
+
+.words-elephant {
+    background: whitesmoke;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.word-wrap {
+    height: 300px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    height: 100px;
+    background-color: darkslategray;
+}
